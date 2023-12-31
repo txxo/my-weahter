@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+
+
+.card {
+  font-size: 1em;
+  padding: 1em;
+  display: flex;
+  justify-items: auto;
+  will-change: filter;
+  transition: filter 100ms;
+  text-align: center;
+  border: #ffffff;
+  border-style: solid;
+  border-radius: 2em;
+  margin: 1em;
+  height: 5em;
+  align-items: center;
+}
+
+.card:hover {
+  filter: drop-shadow(0 0 1em #ffffff);
+}
+
+.card>div {
+  margin-left: 1em;
+  width: 100px;
+}
+
+img {
+  margin-left: 1em;
+  width: 5em;
+  height: em;
+}
