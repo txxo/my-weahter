@@ -22,7 +22,7 @@ function Weather() {
                 <br />最高濕度:{w.forecastMaxrh.value + '℃'}
               </div>
               <div>{w.forecastWeather}</div>
-              <img src={`https://www.hko.gov.hk/images/HKOWxIconOutline/pic${w.ForecastIcon}.png`} />
+              <img src={`https://www.hko.gov.hk/images/HKOWxIconOutline/pic${w.ForecastIcon}.png`} alt="" />
             </div>
           )
           }
