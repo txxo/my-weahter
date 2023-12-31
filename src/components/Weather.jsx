@@ -20,10 +20,11 @@ function Weather() {
         <For each={weathers()}>
           {(w) => (
             <div class="card">
-              <div>{w.forecastDate}</div>
-              <div>{w.week}</div>
-              <div>{w.forecastMintemp.value + '℃'}</div>
-              <div>{w.forecastMaxtemp.value + '℃'}</div>
+              <div>{w.forecastDate}<br />{w.week}</div>
+              <div>最低氣溫:{w.forecastMintemp.value + '℃'}<br />最高氣溫:{w.forecastMaxtemp.value + '℃'}</div>
+              <div>最低濕度:{w.forecastMinrh
+                .value + '℃'}<br />最高濕度:{w.forecastMaxrh
+                  .value + '℃'}</div>
               <div>{w.forecastWeather}</div>
               <img src={`https://www.hko.gov.hk/images/HKOWxIconOutline/pic${w.ForecastIcon}.png`} />
 
