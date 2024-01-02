@@ -27,6 +27,7 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
+  width:100%;
   min-width: 320px;
   max-wdith:1080px;
 }
