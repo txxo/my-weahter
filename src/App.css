@@ -10,8 +10,8 @@
 
 
 .card {
-  font-size: 1em;
-  padding: 1em;
+  font-size: 0.5em;
+  padding: 0.5em;
   display: flex;
   justify-items: auto;
   will-change: filter;
@@ -21,7 +21,7 @@
   border-style: solid;
   border-radius: 2em;
   margin: 1em;
-  height: 5em;
+  height: auto;
   align-items: center;
 }
 
