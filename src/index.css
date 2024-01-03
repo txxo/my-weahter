@@ -1,7 +1,6 @@
 body {
   margin: 0;
   display: flex;
-<<<<<<< HEAD
   min-width: 320px;
   max-width: 1080px;
   background-color: darkgrey;
@@ -9,14 +8,4 @@ body {
   display: flex;
   justify-content: center;
 
-}
-
-button {
-  margin: auto auto;
-=======
-  place-items: center;
-  width:100%;
-  min-width: 320px;
-  max-wdith:1080px;
->>>>>>> 690b54c25838d0347eb2db3954f0ab1be16ee0a5
 }
